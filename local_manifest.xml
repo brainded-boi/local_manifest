@@ -2,6 +2,8 @@
 <manifest>
     <remote name="me" fetch="https://github.com/brainded-boi" />
     <remove name="cipher" fetch="https://github.com/CipherOS/" />
+    <remove name="parts" fetch="https://github.com/Realme-G70-Series/" />
+    
 
     <!-- Device and Vendor trees -->
     <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="me" revision="11" clone-depth="1" />
@@ -10,4 +12,6 @@
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="platform/external/selinux" remote="cipher" revision="eleven" />
 
+    <project path="packages/apps/RealmeParts" name="packages/apps/RealmeParts" remote="parts" revision="lineage-18.1" />
+    
 </manifest>
