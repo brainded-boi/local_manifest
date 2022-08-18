@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="me" fetch="https://github.com/brainded-boi" />
-    <remove name="cipher" fetch="https://github.com/CipherOS/" />
-    <remove name="parts" fetch="https://github.com/Realme-G70-Series/" />
+    <remove name="cipher" fetch="https://github.com/CipherOS" />
+    <remove name="parts" fetch="https://github.com/Realme-G70-Series" />
     
 
     <!-- Device and Vendor trees -->
